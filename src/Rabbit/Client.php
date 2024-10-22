@@ -361,7 +361,7 @@ class Client implements RabbitContract
                 'message' => $validationException->errors()
             ];
         } catch (Throwable $exception) {
-            if (!($message->has('reply_to') && $message->has('correlation_id'))) {
+            if (!($message->has('reply_to') && $message->has('correlation_id')) && config('amqp.dead_letter_queue')) {
 
                 $this->deadLetterHandler->toQueue($data, $exception, $this);
             } else {
@@ -725,7 +725,8 @@ class Client implements RabbitContract
             $this->correlationId = uniqid('rpc_consumer_');
 
             $this->createRpc()->setExclusiveQueue()->setParams([
-                'reply_to' => $this->callback, 'correlation_id' => $this->correlationId
+                'reply_to' => $this->callback,
+                'correlation_id' => $this->correlationId
             ]);
         }
 
