@@ -1,5 +1,5 @@
 {
-  "name": "sobirjonovs/laravel-rabbit",
+  "name": "weldon/laravel-rabbit",
   "description": "Easy tool for working with RabbitMQ",
   "type": "library",
   "require": {
@@ -7,7 +7,7 @@
     "php-amqplib/php-amqplib": "^3.1",
     "illuminate/support": ">8"
   },
-  "homepage": "https://github.com/sobirjonovs/laravel-rabbit",
+  "homepage": "https://github.com/weldon-tech/laravel-rabbit",
   "keywords": [
     "RabbitMQ",
     "Laravel RabbitMQ",
@@ -22,14 +22,9 @@
   },
   "authors": [
     {
-      "name": "Sanjarbek Sobirjonov",
-      "email": "sobirjonovsdev@gmail.com",
-      "homepage": "https://github.com/sobirjonovs"
-    },
-    {
-      "name": "Temur Usmonaliyev",
-      "email": "temur5319436@gmail.com",
-      "homepage": "https://github.com/Temur5319436"
+      "name": "Weldon",
+      "email": "info.weldonuz@gmail.com",
+      "homepage": "https://github.com/weldon-tech"
     }
   ],
   "extra": {

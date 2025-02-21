@@ -1,14 +1,14 @@
 <p align="center">
-<a href="https://packagist.org/packages/sobirjonovs/laravel-rabbit"><img src="https://img.shields.io/packagist/dt/sobirjonovs/laravel-rabbit" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/sobirjonovs/laravel-rabbit"><img src="https://img.shields.io/packagist/v/sobirjonovs/laravel-rabbit" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/sobirjonovs/laravel-rabbit"><img src="https://img.shields.io/packagist/l/sobirjonovs/laravel-rabbit" alt="License"></a>
+<a href="https://packagist.org/packages/weldon/laravel-rabbit"><img src="https://img.shields.io/packagist/dt/weldon/laravel-rabbit" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/weldon/laravel-rabbit"><img src="https://img.shields.io/packagist/v/weldon/laravel-rabbit" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/weldon/laravel-rabbit"><img src="https://img.shields.io/packagist/l/weldon/laravel-rabbit" alt="License"></a>
 <a href="https://t.me/laravel_rabbitmq"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Community"></a>
 </p>
 
 # Installation
 
 ```php
-composer require sobirjonovs/laravel-rabbit
+composer require weldon/laravel-rabbit
 ```
 
 After installing the package, publish its assets using the `rabbit:install` Artisan command.
